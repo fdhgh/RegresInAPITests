@@ -1,6 +1,6 @@
 # RegresInAPITests
 
-Automated Test Suite for https://reqres.in/ using Cucumber and Rest Assured. This suite covers ‘happy path’ tests for each of the CRUD actions of the Regres API. The tests response is checked for the correct information based on the request, as well as a generic response time check.
+Automated Test Suite for https://reqres.in/ using Cucumber and Rest Assured. This suite covers ‘happy path’ tests for each of the CRUD actions of the Regres API. The test response is checked for the correct information based on the request, as well as a generic response time check.
 
 ## General Info
 
