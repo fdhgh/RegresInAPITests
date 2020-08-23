@@ -21,7 +21,7 @@ Feature test steps are defined in the feature files: src\test\java\features
 To run all tests, run the project as a Maven test:
 #### mvn test
 
-#### Reporting
+## Reporting
 
 HTML report is produced at the end of each run and saved to target/htmlreports
 
