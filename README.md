@@ -19,7 +19,7 @@ Written in Java 11 in Eclipse IDE.
 
 Feature test steps are defined in the feature files: src\test\java\features
 
-## Running the tests
+### Running the tests
 
 To run all tests, run the project as a Maven test:
 #### mvn test
