@@ -1,9 +1,6 @@
 # RegresInAPITests
 
-# AutomationPractice Project
-
-Automated Test Suite for automationpractice.com using Cucumber and Selenium WebDriver (Java).
-
+Automated Test Suite for https://reqres.in/ using Cucumber and Rest Assured. This suite covers ‘happy path’ tests for each of the CRUD actions of the Regres API. The tests response is checked for the correct information based on the request, as well as a generic response time check.
 
 ## Getting Started
 
@@ -14,6 +11,7 @@ This project uses:
 * Maven - Dependency management and build tool
 * RestAssured - API test tool http://rest-assured.io/
 * JUnit - Test framework https://junit.org/junit4/
+* Cucumber - BDD framework https://cucumber.io/
 
 ### General Info
 
