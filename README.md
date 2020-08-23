@@ -2,9 +2,7 @@
 
 Automated Test Suite for https://reqres.in/ using Cucumber and Rest Assured. This suite covers ‘happy path’ tests for each of the CRUD actions of the Regres API. The tests response is checked for the correct information based on the request, as well as a generic response time check.
 
-## Getting Started
-
-### Prerequisites
+## General Info
 
 This project uses:
 
@@ -13,18 +11,17 @@ This project uses:
 * JUnit - Test framework https://junit.org/junit4/
 * Cucumber - BDD framework https://cucumber.io/
 
-### General Info
-
 Written in Java 11 in Eclipse IDE.
 
 Feature test steps are defined in the feature files: src\test\java\features
 
+## Getting Started
 ### Running the tests
 
 To run all tests, run the project as a Maven test:
 #### mvn test
 
-### Reporting
+#### Reporting
 
 HTML report is produced at the end of each run and saved to target/htmlreports
 
