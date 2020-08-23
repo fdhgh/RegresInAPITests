@@ -13,7 +13,7 @@ This project uses:
 
 Written in Java 11 in Eclipse IDE.
 
-Feature test steps are defined in the feature files: src\test\java\features
+Feature test steps are defined in the feature files: `src\test\java\features`
 
 ## Getting Started
 ### Running the tests
@@ -23,11 +23,11 @@ To run all tests, run the project as a Maven test:
 mvn test
 ```
 
-## Reporting
+### Reporting
 
-HTML report is produced at the end of each run and saved to target/htmlreports
+HTML report is produced at the end of each run and saved to `target\htmlreports`
 
-Future improvements:
+## Future improvements:
 * The check on createdAt/updatedAt fields could be improved by checking against the current datetime and/or an acceptable datetime format
 * Expand scope of testing. The current tests are happy path and do not cover negative scenarios (e.g. invalid parameters).
 * Performance testing. Currently there is only one generic performance test (response time). There is no load testing, though this might be better accomplished using another tool such as JMeter or Gatling.
